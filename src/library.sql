@@ -226,7 +226,8 @@ WHERE nPublishingYear BETWEEN '1926-01-01' AND '1978-01-01'
   AND NOT nPublishingCompanyID = 32;
 
 
--- 23. Show the name and surname of the members who joined the library after 2016 and have no address.
+-- 23. Show the name and surname of the members who joined the
+--     library after 2016 and have no address.
 
 SELECT cName, cSurname
 FROM tmember
